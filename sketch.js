@@ -77,10 +77,12 @@ function fishnotevil(x, y, face_be_happy, fin) { //the totally definitely not ev
 
   push()
 
-  fill(229, 216, 189)
+  fill(229, 216, 189) //white
 
-  arc(x + 73, y + 5, 15, 15, 100, 170);
-
+  stroke(54, 79, 110) //blue
+  arc(x + 74, y + 4, 15, 12, 100, 170);
+  // arc(x + 74, y + 4, 20, 16, 100, 170); // mouth 2
+  // arc(x + 74, y + 4, 20, 20, 100, 170); // mouth 3
   pop()
 
 
